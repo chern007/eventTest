@@ -1,6 +1,7 @@
 package eventtest;
 
 import java.util.ArrayList;
+import java.util.EventListener;
 import java.util.ListIterator;
 
 public class Empresa {
@@ -84,7 +85,7 @@ public class Empresa {
             (listener).onBusinessChange(readerEvObj);
         }
     }
-
+    
     public String getID() {
         return ID;
     }
